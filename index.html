@@ -37,15 +37,29 @@
     </nav>
     <section id="profile">
         <div class = "profilepic">
-            <img src = "./assets/profile-pic.jpg" alt="richard profilepic">
+            <img src = "./assets/profile-pic.png" alt="richard profilepic">
         </div>
         <div class = "section__text">
             <p class = "section__text__p1">Hello, I'm</p>
             <h1 class="title">Richard Omorotionmwan</h1>
             <p class = "section__text__p2">Developer/Analyst</p>
             <div class = "btn-container">
-                <button class = "btn btn-color-2"
-                onClick = "window.open('./assets/resume.pdf')"></button>
+                <button
+                    class = "btn btn-color-2"
+                    onClick = "window.open('./assets/resume.pdf')">
+                    Download CV
+                </button>
+                <button
+                    class = "btn btn-color-1"
+                    onClick = "location.href = './#contact'">
+                    Contact Info
+                </button>
+            </div>
+            <div id = "socials-container">
+                <img src = "assets/linkedin.png" alt = "My LinkedIn Profile"
+                class = "icon" onClick="location.href='https://linkedin.com/in/richardomor'"/>
+                <img src = "assets/github.png" alt = "My Github Profile"
+                class = "icon" onClick="location.href='https://github.com/iheomach'"/>
             </div>
         </div>
     </section>
