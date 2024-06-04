@@ -247,7 +247,7 @@ section {
 .about-containers {
     gap: 2rem;
     margin-bottom: 2rem;
-    margin-top: 2rem;
+    margin-top: -13rem;
 }
 
 .about-details-container {
@@ -262,6 +262,10 @@ section {
 
 .about-pic{
     border-radius: 2rem;
+    margin-top: -6rem;
+    margin-left: 1rem;
+    height: 400px;
+    width: 400px;
 }
 
 .arrow{
@@ -276,8 +280,8 @@ section {
     background: white;
     border-radius: 2rem;
     border: grey;
-    border-color: yellow;
-    border-color: black;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 1rem;
     text-align: center;
 }
 
