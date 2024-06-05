@@ -340,3 +340,12 @@ article {
 article .icon {
     cursor: default;
 }
+/* COMPANY LOGOS */
+
+#complogos {
+    position: relative;
+}
+
+suncor {
+    height: 2rem;
+}
